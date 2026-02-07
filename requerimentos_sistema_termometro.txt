@@ -1,0 +1,46 @@
+termometro administrativo:
+
+1. 7 áreas: talento humano, contabilidad, sistemas, administracion, infraestructura, comercial, seguridad.
+2. datos importantes: sala, lider de sala, asistente, mes, año.
+3. escala de resta por observacion: 2- se mantiene, 3- se le resta el 1%, 4- se le resta el 2%, 5- se le resta el 3%, 6- se le resta el 4%, 7- se le resta el 5%.
+4. termometro mensual reporte por cada sala: 37 salas.
+5. necesidad de mantenerlo activo 24/7.
+6. cada lider de área debe de poder ingresar y modificar estos datos.
+7. es un solo reporte por área, pueden ser distintas novedades por área, mantener todo dentro de un solo cuadro de texto.
+8. aplicación web.
+9. interfaz intuitiva.
+10. mantenerse consistente tras los años. (primordial en fechas)
+11. tener en cuenta instrucciones de termometro administrativo
+12. interfaz de eleccion de área y sala a la cual realizar notificación
+13. al entrar a la dashboard opciones para realizar reporte, ver historial de reporte mensual hasta ese momento y ver historial de termometros históricos.
+14. modal para generar reporte con una previsualización de cuantos reportes van en total, con diseño bonito
+15. generar en pdf o excel (?) -----------
+16. automaticamente al acabar el mes generar el termometro mensual y enviar en forma de notificación al sistema
+
+
+
+preguntas:
+1. solo los líderes de cada área tienen el permiso para llenar el termometro?
+2. es necesario realizar un sistema de login seguro?
+3. en que tipo de documento es necesario generar? excel? pdf?
+4. despliego por render? por que sitio puedo desplegar para tenerlo 24/7?
+5. quien es el encargado de enviar eso? a que área se envía? a quien?
+6. ¿Cómo funciona el flujo actual?
+```
+Opción 1: Cada líder llena sus reportes → Al final del mes alguien 
+          consolida todo → Se envía a gerencia
+
+Opción 2: Sistema auto-genera reporte consolidado → Se notifica 
+          automáticamente a gerencia/admin
+
+Opción 3: Admin revisa que todos llenaron → Admin genera reporte final
+```
+7. ¿A quién se debe notificar?
+```
+□ Gerente General
+□ Director Administrativo
+□ Todos los líderes de área
+□ Área de Talento Humano
+□ Otro: _______________
+```
+9. cada lider tiene su correo administrarivo?
